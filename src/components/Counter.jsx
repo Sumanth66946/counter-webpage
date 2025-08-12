@@ -13,7 +13,7 @@ class Counter extends Component{
         return (
         <div className="container">
             <h1 className="heading">Counter</h1>
-            <p className="count">Count {count}</p>
+            <p className="count">{count}</p>
             <div>
                 <button className="button" onClick={this.onIncreament}>
                     Increase
